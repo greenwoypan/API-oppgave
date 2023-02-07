@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YR API</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/weatherscript.js"></script>
+</head>
+<body>
+    <body onload="weatherAPI()"></body>
+    <nav class="navbar">
+        <h1>Været i ski</h1>
+    </nav>
+
+    <div id="oppgmain">
+        <div id="gridwrapper"> <!-- start gridwrapper-->
+            <div id="day1boks">   
+            <h2 class="text-top">MANDAG</h2>
+            <p id="d1_at"></p>
+            <p id="d1_rh"></p>
+            <p id="d1_ws"></p>
+            </div>
+        
+
+            <div id="day2boks">
+            <h2 class="text-top">TIRSDAG</h2>
+            <p id="d2_at"></p>
+            <p id="d2_rh"></p>
+            <p id="d2_ws"></p>
+            </div>
+
+            <div id="day3boks">
+            <h2 class="text-top">ONSDAG</h2>
+            <p id="d3_at"></p>
+            <p id="d3_rh"></p>
+            <p id="d3_ws"></p>
+            </div>
+
+            <div id="day4boks">
+            <h2 class="text-top">TORSDAG</h2>
+            <p id="d4_at"></p>
+            <p id="d4_rh"></p>
+            <p id="d4_ws"></p>
+            </div>
+
+            <div id="day5boks">
+            <h2 class="text-top">FREDAG</h2>
+            <p id="d5_at"></p>
+            <p id="d5_rh"></p>
+            <p id="d5_ws"></p>
+            </div>
+            
+            <div id="day6boks">
+            <h2 class="text-top">LØRDAG</h2>
+            <p id="d6_at"></p>
+            <p id="d6_rh"></p>
+            <p id="d6_ws"></p>
+            </div>
+
+            <div id="day7boks">
+            <h2 class="text-top">SØNDAG</h2>
+            <p id="d7_at"></p>
+            <p id="d7_rh"></p>
+            <p id="d7_ws"></p>
+            </div>
+        </div> <!-- end gridwrapper-->
+    </div> <!-- end oppgmain-->
+    <button onclick="weatherAPI()">refresh været</button>
+</body>
+</html>

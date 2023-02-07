@@ -1,0 +1,43 @@
+#gridwrapper {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 2px;
+    padding: 1px;
+}
+
+#day1boks, #day2boks, #day3boks, #day4boks, #day5boks, #day6boks, #day7boks {
+    height: 250px;
+    background-color: #D36135;
+    padding: 1px;
+    text-align: center
+}
+
+body {
+    background: #E6AA68;
+}
+
+h1{
+    color: #ECE4B7;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+
+.text-top {
+    vertical-align: text-top;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #02020B;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #ECE4B7;
+    margin-right: 20px;
+  }
+
